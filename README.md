@@ -16,18 +16,20 @@ Traditional deterministic inversion often struggles in thin-bed zones. This proj
 - **Robustness:** Validated via **Blind Well Testing** and K-Fold Cross-Validation.
 - **Geological Fidelity:** Successfully replicated complex features (salt domes, faults) with a MAPE of **0.033**.
 
-## 🛠️ Installation
+## 🛠️ Installation & Run
 
 ```bash
 git clone https://github.com/okpoEkpenyong/speed-and-structure-AI-inversion.git
 cd speed-and-structure-AI-inversion
 pip install -r requirements.txt
 ```
+For ease of run, single entry points are created in the two notebooks: ../notebooks/speed-and-structure-1st.ipynb and ../notebooks/speed-and-structure-30th.ipynb. 
+The user can run each cell in each notebook to see the results. Since both Kaggle and Azure ML environments were used, slight modifications will be required if paths are changed.
 
 ## 📊 Workflow
 1.  **Data Ingestion:** No formal cleaning of the dataset was required.
 2.  **Feature Engineering:** Extracting instantaneous attributes like well log attributes.
-3.  **Ensemble Training:** Combining Gradient Boosting (XGBoost/LightGBM) with Random Forests.
+3.  **Machine Learning Training:** Combining Hybrid Unet and Physics-aware losses.
 4.  **Blind Validation:** Predicting velocity on held-out wells to verify generalization.
 
 ## ⚠️ Dataset
@@ -43,15 +45,3 @@ https://www.kaggle.com/datasets/okpoekpenyong/train-200
 ***
 #### **B. Reproducibility (The Seed)**
 random seed is implemented to help in reproducibility:
-
-```python
-import numpy as np
-import tensorflow as tf
-import random
-
-SEED = 42
-np.random.seed(SEED)
-random.seed(SEED)
-# If using Scikit-Learn
-model = RandomForestRegressor(random_state=SEED)
-```
