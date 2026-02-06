@@ -23,7 +23,9 @@ git clone https://github.com/okpoEkpenyong/speed-and-structure-AI-inversion.git
 cd speed-and-structure-AI-inversion
 pip install -r requirements.txt
 ```
-For ease of run, single entry points are created in the two notebooks: ../notebooks/speed-and-structure-1st.ipynb and ../notebooks/speed-and-structure-30th.ipynb. 
+For ease of run, single entry points are created in the two notebooks:
+1. ../notebooks/speed-and-structure-1st.ipynb and
+2.  ../notebooks/speed-and-structure-30th.ipynb. 
 The user can run each cell in each notebook to see the results. Since both Kaggle and Azure ML environments were used, slight modifications will be required if paths are changed.
 
 ## 📊 Workflow
