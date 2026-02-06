@@ -12,7 +12,7 @@ This repository contains the implementation of a **Hybrid Machine Learning Seism
 Traditional deterministic inversion often struggles in thin-bed zones. This project utilizes a **Python-based ensemble model** to integrate seismic attributes with well-log data, achieving higher resolution and geological plausibility.
 
 ## 🚀 Key Results
-- **Accuracy:** Achieved **~15% improvement** in correlation within thin-bed zones compared to commercial inversion packages.
+- **Accuracy:** Reduced column-wise MSE at borehole positions by ≈ 20 %, and improving structural boundary fidelity relative to baseline regression U-Nets.
 - **Robustness:** Validated via **Blind Well Testing** and K-Fold Cross-Validation.
 - **Geological Fidelity:** Successfully replicated complex features (salt domes, faults) with a MAPE of **0.033**.
 
