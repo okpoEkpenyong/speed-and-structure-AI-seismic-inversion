@@ -34,12 +34,12 @@ The user can run each cell in each notebook to see the results. Since both Kaggl
 
 ## ⚠️ Dataset
 Dataset is provided by Thinkonward which also owns full copyright. Since it was made public, it's hosted here with these links:
-https://www.kaggle.com/datasets/okpoekpenyong/train-extra-2
-https://www.kaggle.com/datasets/okpoekpenyong/train-extra-1
-https://www.kaggle.com/datasets/okpoekpenyong/train-1000
-https://www.kaggle.com/datasets/okpoekpenyong/train-500
-https://www.kaggle.com/datasets/okpoekpenyong/train-300
-https://www.kaggle.com/datasets/okpoekpenyong/train-200
+1. https://www.kaggle.com/datasets/okpoekpenyong/train-extra-2
+2. https://www.kaggle.com/datasets/okpoekpenyong/train-extra-1
+3. https://www.kaggle.com/datasets/okpoekpenyong/train-1000
+4. https://www.kaggle.com/datasets/okpoekpenyong/train-500
+5. https://www.kaggle.com/datasets/okpoekpenyong/train-300
+6. https://www.kaggle.com/datasets/okpoekpenyong/train-200
 
 
 ***
